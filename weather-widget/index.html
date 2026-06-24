@@ -11,15 +11,15 @@
   <div class="container">
     <div class="input-container">
       <form>
-        <input type="text" class="zipcode" placeholder="type zipcode here">
-        <button type="button" class="search-button">Search</button>
+        <input type="text" class="zipcode" placeholder="zip — e.g. 10027 or 75001,fr">
+        <button type="submit" class="search-button">Search</button>
       </form>
     </div>
     <div class="output-container">
-      <!-- City + temperature are hard-coded for now, just to test the styles.
-           In the Data and APIs module these get filled in with live data. -->
-      <h2 class="city_name">New York</h2>
-      <p class="temperature">34</p>
+      <!-- These start empty; main.js fills them in with the live weather. -->
+      <h2 class="city_name"></h2>
+      <p class="temperature"></p>
+      <img src="" alt="weather icon">
     </div>
   </div>
 

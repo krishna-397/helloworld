@@ -10,6 +10,8 @@ html,
 body {
   height: 100%;
   background-color: #141414;
+  /* smooth fade when the background changes with the weather */
+  transition: background-color 0.8s ease;
 }
 
 /* Center everything vertically + horizontally */
